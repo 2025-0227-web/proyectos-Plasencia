@@ -7,7 +7,7 @@ class Program
         int suma = 0;
         int contador = 1;
 
-        // El ciclo se repite mientras el contador no pase de 100
+        // El ciclo se repite mientras el contador no pase de 100.
         while (contador <= 100)
         {
             suma = suma + contador; // Sumamos el número actual
