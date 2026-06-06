@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Ejercicios__;
+using System;
 
 class Program
 {
     static void Main()
     {
-        int suma = 0;
+        
+       int suma = 0;
         int contador = 1;
 
-        // El ciclo se repite mientras el contador no pase de 100.
+        // El ciclo se repite mientras el contador no pase de 100
         while (contador <= 100)
         {
             suma = suma + contador; // Sumamos el número actual
@@ -15,5 +17,6 @@ class Program
         }
 
         Console.WriteLine("La suma de los primeros 100 números es: " + suma);
+       
     }
 }
