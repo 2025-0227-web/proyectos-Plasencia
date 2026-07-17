@@ -90,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBloqueArreglos.resx">
+      <DependentUpon>FormBloqueArreglos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBloqueAvanzados.resx">
+      <DependentUpon>FormBloqueAvanzados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBloqueBasicos.resx">
       <DependentUpon>FormBloqueBasicos.cs</DependentUpon>
     </EmbeddedResource>
